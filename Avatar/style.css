@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu+Condensed&display=swap');
+
+body{ 
+  background: url(img/6_Avatar.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y:auto;
+    
+}
+
+
+
+
+.navbar{
+  letter-spacing: .1rem;
+  font-weight: 500;
+  background:rgba(0, 0, 0, 0.6)!important;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+.card {
+  margin-top:20px;
+  margin-left:30px;
+  background:rgba(0, 0, 0, 0.6);
+  color:rgb(201, 241, 253);
+}
+
+
+.navbar-brand img {
+  height: 70px;
+}
+
+/*.caption {
+  width:100%;
+  max-width:100%;
+  position: absolute;
+  top: 38%;
+  color: #ddf4ff;
+}*/
+
+div.transbox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -220px;
+  background:rgba(0, 0, 0, 0.6);
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  max-width: 100%;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-size:50px;
+  font-weight: bold;
+  color: #d3f0fd;
+  text-shadow: .2rem .2rem .6rem rgb(0, 2, 5);
+}
+
+/* #display {
+  background:rgba(0, 0, 0, 0.6)
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+ -webkit-backface-visibility: hidden;
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- iOS Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999!important;
+}
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
